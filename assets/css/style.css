@@ -362,7 +362,7 @@ h3 {
     position: absolute;
     top: 0;
     width: 100%;
-}
+
   height: 100%;
   left: 0;
   position: absolute;
@@ -424,6 +424,8 @@ h3 {
   border: none;
 }
 
+
+
 #experience .card .col.s12.m2 a {
   display: block;
 }
@@ -471,6 +473,9 @@ a.hoverline {
   -moz-transition: 0.25s all;
   -webkit-transition: 0.25s all;
 }
+
+
+
 
 /* main a.hoverline */
 
@@ -566,6 +571,10 @@ small {
 
 .teal {
   background-color: #086bc8 !important;
+}
+
+.card-action {
+  position: static !important; /* Override absolute positioning */
 }
 
 /* .teal {
